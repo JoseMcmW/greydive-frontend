@@ -1,7 +1,7 @@
 greydive-frontend
 Challenge Greydive
 
-Para Realizar este challenge utilice React Vite, axios y tailwind para sus estilos. Para poder utilizarlo de forma local solo deben ejecutar npm instal en el directorio del proyecto, y posterios a eso, en el archivo App.jsx cambiar la axios.defaults.baseURL a http://localhost:3001/.
+Para Realizar este challenge utilice React Vite, axios y tailwind para sus estilos. Para poder utilizarlo de forma local solo deben ejecutar npm install en el directorio del proyecto, y posterior a eso, en el archivo App.jsx cambiar la axios.defaults.baseURL a http://localhost:3001/. Para levantar la App utilizar npm run dev.
 
 A continuacion presento las pautas del challenge.:
 
