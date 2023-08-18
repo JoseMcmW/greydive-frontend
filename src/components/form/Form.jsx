@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { validate } from "./validate";
 import dataEncuesta from "../api/dataEncuesta";
 import axios from "axios";
@@ -9,6 +10,7 @@ const Form = () => {
   const [processing, setProcessing] = useState(false);
   const [error, setError] = useState({});
   const [form, setForm] = useState({});
+  const navigate = useNavigate()
 
   const handleInputChange = (event, name) => {
     const { value, type, checked } = event.target;
@@ -44,7 +46,7 @@ const Form = () => {
             subject: "",
             message: "",
           });
-          window.location.href = 'https://greydive-frontend-khdwf1k5e-josemcmw.vercel.app/surveys'
+          navigate("/surveys")
         }, 4000);
       } else {
         toast.error("Error sending message. Please try again.");
