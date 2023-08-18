@@ -60,7 +60,7 @@ const Form = () => {
             subject: "",
             message: "",
           });
-          window.location.href = 'https://greydive-frontend.vercel.app/surveys'
+          window.location.href = 'https://greydive-frontend-khdwf1k5e-josemcmw.vercel.app/surveys'
         }, 4000);
       } else {
         toast.error("Error al editar encuesta.!");
