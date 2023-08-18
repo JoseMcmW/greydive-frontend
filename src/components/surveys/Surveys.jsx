@@ -43,7 +43,7 @@ const Surveys = () => {
   return (
     <div className="w-screen h-auto bg-gray font-pharagrap text-xs p-1">
       <button
-        className="w-10 bg-red text-white reounded my-2 py-1 "
+        className="w-10 bg-red text-white reounded my-2 py-1 rounded"
         onClick={() => navigate("/")}
       >
         Atras

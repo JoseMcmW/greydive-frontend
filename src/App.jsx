@@ -8,7 +8,8 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
-axios.defaults.baseURL = "http://localhost:3001/";
+/* axios.defaults.baseURL = "http://localhost:3001/"; */
+axios.defaults.baseURL = "https://greydive-backend-production.up.railway.app/";
 
 function App() {
   const navigate = useNavigate();
